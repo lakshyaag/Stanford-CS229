@@ -2,5 +2,8 @@
   "spellcheck": true,
   "trashOption": "local",
   "promptDelete": false,
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "strictLineBreaks": false,
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true
 }

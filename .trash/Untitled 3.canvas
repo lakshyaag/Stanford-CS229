@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"42974565764fa42a","x":-342,"y":-380,"width":400,"height":507,"color":"3","type":"file","file":"Notes/Week 1/Introduction.md"},
+		{"id":"96eda9dae49f1608","x":-412,"y":201,"width":400,"height":400,"type":"file","file":"Notes/Week 1/Supervised learning.md"},
+		{"id":"b67702d660b11468","x":-480,"y":700,"width":400,"height":400,"type":"file","file":"Notes/Week 1/Linear regression.md"},
+		{"id":"f41069efa98dbc05","x":79,"y":764,"width":400,"height":400,"type":"file","file":"Notes/Week 1/Derivative of J.md"}
+	],
+	"edges":[
+		{"id":"fe6234b91c6b4b69","fromNode":"42974565764fa42a","fromSide":"bottom","toNode":"96eda9dae49f1608","toSide":"top"},
+		{"id":"687b89a4e4906ced","fromNode":"96eda9dae49f1608","fromSide":"bottom","toNode":"b67702d660b11468","toSide":"top"},
+		{"id":"84b5387475bfd279","fromNode":"b67702d660b11468","fromSide":"right","toNode":"f41069efa98dbc05","toSide":"left"}
+	]
+}
