@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"type":"file","file":"main_notes.pdf","id":"753c061ea510d43f","x":44,"y":93,"width":400,"height":400},
+		{"type":"text","text":"","id":"50b56c23a53ac5d2","x":-360,"y":-240,"width":250,"height":60}
+	],
+	"edges":[]
+}
