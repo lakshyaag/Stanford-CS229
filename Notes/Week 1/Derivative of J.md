@@ -1,3 +1,4 @@
+#definition 
 $$\begin{align}
 \frac{\partial}{\partial\theta_j}J(\theta) & =\frac{\partial}{\partial\theta_j}\frac{1}{2}(h(x)-y)^2 
 \\ 

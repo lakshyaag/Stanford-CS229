@@ -1,3 +1,4 @@
+#definition  
 The derivative of a function $f(A)$ with respect to a $n x d$ matrix $A_{n \times d}$ is defined as:
 $$
 \nabla_Af(A) = \begin{bmatrix}
