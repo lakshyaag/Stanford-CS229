@@ -11,7 +11,9 @@ $$
 
 Also, 
 
-$$\nabla_Af(A)_{(i,j)} = \frac {\partial f} {\partial A_{ij}}$$
+$$
+\nabla_Af(A) = \frac {\partial f} {\partial A_{ij}}
+$$
 
 The above shows the derivative matrix of a function that is applied to matrices. For example, given a function $f$, such that: 
 
