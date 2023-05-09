@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"type":"file","file":"Notes/Lecture 1/Introduction.md","id":"f439ad63dd2fdc88","x":-410,"y":-333,"width":400,"height":400},
-		{"type":"file","file":"Notes/Lecture 1/Supervised learning.md","id":"865a1d4ff15457ca","x":80,"y":-333,"width":400,"height":400},
-		{"type":"file","file":"Notes/Lecture 1/Batch gradient descent.md","id":"f8873e22d7f88f03","x":-31,"y":416,"width":400,"height":400},
-		{"type":"file","file":"Notes/Lecture 1/Stochastic gradient descent.md","id":"822d841efde4e857","x":460,"y":416,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 2/Introduction.md","id":"f439ad63dd2fdc88","x":-410,"y":-333,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 2/Supervised learning.md","id":"865a1d4ff15457ca","x":80,"y":-333,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 2/Batch gradient descent.md","id":"f8873e22d7f88f03","x":-31,"y":416,"width":400,"height":400,"subpath":"#Algorithm"},
+		{"type":"file","file":"Notes/Lecture 2/Stochastic gradient descent.md","id":"822d841efde4e857","x":460,"y":416,"width":400,"height":400,"subpath":"#Algorithm"},
 		{"type":"text","text":"# Algebraic method","id":"253148b9f960ab3f","x":320,"y":240,"width":195,"height":50},
-		{"type":"file","file":"Notes/Lecture 1/Linear regression.md","id":"330ca56b6974e839","x":660,"y":-333,"width":400,"height":400},
-		{"type":"file","file":"Notes/Lecture 1/Least squares with matrices.md","id":"77eca1d249d0ef5d","x":1183,"y":416,"width":400,"height":400},
-		{"type":"file","file":"Notes/Lecture 1/Matrix derivatives.md","id":"aea191b97e098284","x":1183,"y":880,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 2/Linear regression.md","id":"330ca56b6974e839","x":660,"y":-333,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 2/Least squares with matrices.md","id":"77eca1d249d0ef5d","x":1183,"y":416,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 2/Matrix derivatives.md","id":"aea191b97e098284","x":1183,"y":880,"width":400,"height":400},
 		{"type":"text","text":"# Matrix method","id":"f21c7008b6fc377f","x":1286,"y":280,"width":195,"height":50}
 	],
 	"edges":[
