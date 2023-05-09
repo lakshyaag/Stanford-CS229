@@ -11,11 +11,18 @@ $$
 
 Also, 
 
-$$\nabla_Af(A)_{(i,j)} = \frac {\partial f} {\partial A_{ij}}$$
+$$
+\nabla_Af(A)_{(i,j)} = \frac {\partial f} {\partial A_{ij}}
+$$
+
 The above shows the derivative matrix of a function that is applied to matrices. For example, given a function $f$, such that: 
 
-$$f(A)=\frac{4}{3}A_{11} + 12A_{12}^2 + A_{21}A_{22}$$
+$$
+f(A)=\frac{4}{3}A_{11} + 12A_{12}^2 + A_{21}A_{22}
+$$
 
 Then, the derivative matrix is: 
 
-$$\nabla_Af(A) = \begin{bmatrix}\frac{4}{3} & 24A_{12} \\ A_{22} & A_{21}\end{bmatrix}$$
+$$
+\nabla_Af(A) = \begin{bmatrix}\frac{4}{3} & 24A_{12} \\ A_{22} & A_{21}\end{bmatrix}
+$$
