@@ -11,11 +11,13 @@ Locally weighted linear regression (LWR) is a "non-parametric" algorithm, wherei
 
 ## Steps
 In LWR, we use a modified cost function:
+
 $$
 min \sum_{i=1}^{n}w^{(i)}(y^{(i)}-\theta^Tx^{(i)})^2
 $$
 
 where $w$ is a vector of **"weights"**, generally given by:
+
 $$
 w^{(i)}=exp(-\frac{(x^{(i)}-x)^2}{2\tau^2})
 $$
