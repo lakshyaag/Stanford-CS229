@@ -98,7 +98,6 @@ Therefore, $BAB^T$ is PSD.
 ## Problem A
 
 $$
- 
 \begin{align}
 A = T\Lambda T^{-1} &= \begin {bmatrix} t^{(1)} & \dots & t^{(n)} \end{bmatrix} \Lambda T^{-1} \\
 &= 
@@ -108,7 +107,6 @@ T^{-1}
 $$
 
 $$
- 
 \begin{align}
 A &= T\Lambda T^{-1}  \\
 AT &= T\Lambda \\
