@@ -23,6 +23,6 @@ Over $n$ training points, the above rule can be re-written in two ways:
 
 In practice, most (if not all) applications use a minibatch version of the stochastic gradient descent as it is computationally more efficient. In the minibatch version, instead of taking a step for each training example, steps are taken for a random batch of training examples, thereby reducing variation.
 
-# Matrix method
-Using the matrix method, we can quickly find the optimum value of $\theta$, using $$\theta = (X^TX)^{-1}X^T\vec y$$
+# [[Least squares with matrices|Normal equation]]
+This method works only for linear regression and allows us to directly jump to the global optimum, instead of going through an iterative process of gradient descent. Using the matrix method of ordinary least squares, we can quickly find the optimum value of $\theta$, using $$\theta = (X^TX)^{-1}X^T\vec y$$
 This vector can be plugged into $h(x)$ to generate the linear approximation function. For in-depth, see [[Least squares with matrices]]

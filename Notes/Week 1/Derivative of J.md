@@ -1,5 +1,7 @@
 #definition 
-$$\begin{align}
+
+$$
+\begin{align}
 \frac{\partial}{\partial\theta_j}J(\theta) & =\frac{\partial}{\partial\theta_j}\frac{1}{2}(h(x)-y)^2 
 \\ 
 & = 2.\frac{1}{2}(h(x)-y).\frac{\partial}{\partial\theta_j}(h(x)-y)
