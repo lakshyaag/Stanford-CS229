@@ -8,6 +8,7 @@ $$
 \frac {\partial f}{\partial A_{n1}} & \dots &  \frac {\partial f}{\partial A_{nd}} \\
 \end{bmatrix}
 $$
+
 Also, 
 
 $$\nabla_Af(A)_{(i,j)} = \frac {\partial f} {\partial A_{ij}}$$
