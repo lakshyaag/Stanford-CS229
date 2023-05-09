@@ -1,3 +1,4 @@
+# CS 229
 This repository contains my notes and solutions for the [Stanford CS229: Machine Learning](https://cs229.stanford.edu/) course. 
 
 I recommend cloning the repo and opening it using [Obsidian](https://obsidian.md/) to follow along properly.
