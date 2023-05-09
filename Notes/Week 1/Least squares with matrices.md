@@ -23,9 +23,21 @@ Since $h(x) = x^T\theta$,
 
 $$
 \begin{align}
-X\theta - \vec y&= \begin{bmatrix} (x^{(1)})^T\theta \\ (x^{(2)})^T\theta \\ \vdots \\ (x^{(n)})^T\theta \end{bmatrix} - \begin{bmatrix} y^{(1)} \\ y^{(2)} \\ \vdots \\ y^{(n)}\end{bmatrix}
+X\theta - \vec y &= \begin{bmatrix} (x^{(1)})^T\theta \\ 
+(x^{(2)})^T\theta \\ 
+\vdots \\ (x^{(n)})^T\theta 
+\end{bmatrix}
+- \begin{bmatrix} y^{(1)} \\ 
+y^{(2)} \\ 
+\vdots \\ 
+y^{(n)}
+\end{bmatrix}
 \\
-&= \begin{bmatrix} h(x^{(1)}) - y^{(1)} \\ h(x^{(2)}) - y^{(2)} \\ \vdots \\ h(x^{(n)}) - y^{(n)} \end{bmatrix}
+&= \begin{bmatrix} h(x^{(1)}) - y^{(1)} \\ 
+h(x^{(2)}) - y^{(2)} \\ 
+\vdots \\ 
+h(x^{(n)}) - y^{(n)} 
+\end{bmatrix}
 \end{align}
 $$
 Then, using the vector property $z^Tz = \sum_{i}z_i^2$,
