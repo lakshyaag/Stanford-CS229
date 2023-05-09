@@ -1,11 +1,13 @@
 #solution
 # Gradients and Hessians
 ## 1. Problem A
+
 $$
 \nabla f(x) = Ax + b
 $$
 
 ## 2. Problem B
+
 $$
 \begin{align}
 \nabla f(x) &= \nabla g(h(x)) \\
@@ -15,11 +17,13 @@ $$
 $$
 
 ## 3. Problem C
+
 $$
 \nabla^2f(x)=A
 $$
 
 ## 4. Problem D
+
 $$
 \nabla f(x) = \frac{\partial g(a^Tx)}{\partial (a^Tx)} \frac{\partial (a^Tx)}{\partial x}=g'(a^Tx)a
 $$
@@ -27,8 +31,10 @@ $$
 $$
 \nabla^2f(x)=\frac{\partial g'(a^Tx)}{\partial (a^Tx)^2} \frac{\partial a^Tx}{\partial x_i} \frac{\partial a^Tx}{\partial x_j} = g''(a^Tx)a_ia_j=g''(a^Tx)aa^T
 $$
+
 # Positive definite matrices
 ## Problem A
+
 $$
 \begin{align*}
 z &= \begin{bmatrix} 
@@ -56,23 +62,28 @@ A_{i,j} = z_iz_j
 $$
 
 Now, 
+
 $$
 A^T = (zz^T)^T = (z^T)^Tz=zz^T
 $$
+
 $$
 x^TAx = x^Tzz^Tx=x^Tz(x^Tz)^T=(x^Tz)^2\geq0
 $$
 
 ## Problem B
+
 $$
 N(A) = \set{x \in \mathbb R^{n} : x^Tz = 0}
 $$
+
 $$
 R(A) = R(zz^T) = 1
 $$
 
 ## Problem C
 Assuming $A = zz^T$,
+
 $$
 (BAB^T)^T=BA^TB^T = BAB^T
 $$
@@ -80,11 +91,14 @@ $$
 $$
 x^TBAB^Tx = x^TBA(x^TB)^T \geq 0
 $$
+
 Therefore, $BAB^T$ is PSD.
 
 # Eigenvectors and eigenvalues
 ## Problem A
-$$ 
+
+$$
+ 
 \begin{align}
 A = T\Lambda T^{-1} &= \begin {bmatrix} t^{(1)} & \dots & t^{(n)} \end{bmatrix} \Lambda T^{-1} \\
 &= 
@@ -92,6 +106,7 @@ A = T\Lambda T^{-1} &= \begin {bmatrix} t^{(1)} & \dots & t^{(n)} \end{bmatrix} 
 T^{-1}
 \end{align}
 $$
+
 $$
  
 \begin{align}
@@ -104,6 +119,7 @@ At^{(i)} &= \lambda_it^{(i)}
 $$
 
 ## Problem B
+
 $$
 \begin{align}
 A &= U \Lambda U^T \\
@@ -116,6 +132,7 @@ Au^{(i)} &= \lambda_i u^{(i)}
 $$
 
 ## Problem C
+
 $$
 \begin{align}
 At^{(i)} &= \lambda_it^{(i)} \\
