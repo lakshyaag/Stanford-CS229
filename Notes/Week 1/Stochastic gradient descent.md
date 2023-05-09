@@ -4,7 +4,8 @@ Loop {
 	for $i=1$ to $n$ {	
 
 	$$\theta_j = \theta_j + \alpha(y^{(i)}-h(x^{(i)}))x_j^{(i)}$$
-	}
+
+}
 }
 
 By grouping the updates for each $j$, we can re-write the above as: $$\theta = \theta + \alpha(y^{(i)}-h(x^{(i)}))x^{(i)}$$
