@@ -1,7 +1,7 @@
 #book 
 Given a training set, define matrix $X$ to be the design or feature matrix, containing $n$ input vector as rows, 
 
-$$X = \begin{bmatrix} (x^{(1)})^T \\ (x^{(2)})^T \\ \vdots \\ (x^{(n)})^T \end{bmatrix}$$
+$$X = \begin{bmatrix} (x^{(1)})^T \\ (x^{(2)})^T \\ \vdots \\ (x^{(n)})^T \end{bmatrix}$$ 
 and a target vector $\vec y$, 
 
 $$\vec y = \begin{bmatrix} y^{(1)} \\ y^{(2)} \\ \vdots \\ y^{(n)} \end{bmatrix}$$
