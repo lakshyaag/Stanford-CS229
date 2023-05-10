@@ -7,7 +7,7 @@ p(y; \eta) = b(y)\exp(\eta^TT(y)-a(\eta))
 $$
 
 where, 
-- $\eta$ is the **natural parameter** (also called canonical parameter) of the distribution
+- $\eta$ is the **natural parameter** of the distribution
 - $T(y)$ is the **sufficient statistic**
 - $a(\eta)$ is the **log partition function**. 
 
@@ -23,6 +23,8 @@ A Bernoulli distribution with a mean of $\phi$ is in the exponential family for 
 A Gaussian distribution with a mean of $\mu$ and a variance of $\sigma^2$ is in the exponential family for a particular set of $T$, $a$ and $b$.
 
 There are other distributions as well that are part of this family, such as Poisson, gamma, exponential, beta, multinomial, and others.
+
+![[Pasted image 20230510215427.png]]
 
 # Properties
 1. The maximum likelihood estimation with respect to $\eta$ is a concave function, meaning that it  has only one maximum, which is the global maximum

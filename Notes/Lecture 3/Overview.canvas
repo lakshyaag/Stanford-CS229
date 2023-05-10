@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"type":"file","file":"Notes/Lecture 3/Maximum likelihood model.md","id":"8205b3487273debf","x":-80,"y":-260,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 3/sigmoid function.md","id":"2d5bea59bfea93ae","x":-80,"y":300,"width":400,"height":400},
+		{"id":"ae702d7f7020f2eb","x":-660,"y":300,"width":400,"height":400,"type":"file","file":"Notes/Lecture 3/Locally weighted linear regression.md"},
+		{"type":"file","file":"Notes/Lecture 3/Introduction.md","id":"e36d84b297f701da","x":-920,"y":-460,"width":400,"height":400},
+		{"id":"6a28ecebf550f288","x":608,"y":-92,"width":400,"height":400,"type":"file","file":"Notes/Lecture 3/Newton's method.md"},
+		{"id":"1fa3175e3bec4947","x":608,"y":400,"width":400,"height":400,"type":"file","file":"Notes/Lecture 3/Hessian matrix.md"}
+	],
+	"edges":[
+		{"id":"dd8d801da3772476","fromNode":"e36d84b297f701da","fromSide":"right","toNode":"8205b3487273debf","toSide":"left"},
+		{"id":"c5a70137ee95f6f6","fromNode":"8205b3487273debf","fromSide":"bottom","toNode":"2d5bea59bfea93ae","toSide":"top"},
+		{"id":"4b6df011e92120f7","fromNode":"e36d84b297f701da","fromSide":"right","toNode":"ae702d7f7020f2eb","toSide":"top"},
+		{"id":"d0449fc60dfe8cb8","fromNode":"8205b3487273debf","fromSide":"right","toNode":"6a28ecebf550f288","toSide":"left"},
+		{"id":"67c4f224f4be3307","fromNode":"6a28ecebf550f288","fromSide":"bottom","toNode":"1fa3175e3bec4947","toSide":"top"}
+	]
+}

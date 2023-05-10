@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"type":"file","file":"Notes/Lecture 4/Gaussian distribution.md","id":"f77a2cd4f0f652f9","x":3,"y":379,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 4/Bernoulli distribution.md","id":"6e41a81bd0995585","x":-417,"y":379,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 4/Exponential family.md","id":"d49c4cf18c91c03a","x":-207,"y":-180,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 4/Generalized linear models (GLMs).md","id":"7f28c887ccaf9aea","x":520,"y":-180,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 4/Canonical functions.md","id":"539f332451a612ad","x":520,"y":379,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 4/Softmax regression.md","id":"496def2443ff0db7","x":1240,"y":-180,"width":400,"height":400},
+		{"type":"file","file":"Notes/Lecture 4/cross-entropy.md","id":"e73a9c77c1965e91","x":1240,"y":379,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"332afa07ef6568a9","fromNode":"d49c4cf18c91c03a","fromSide":"bottom","toNode":"6e41a81bd0995585","toSide":"top"},
+		{"id":"8507f3ca1984a2a5","fromNode":"d49c4cf18c91c03a","fromSide":"bottom","toNode":"f77a2cd4f0f652f9","toSide":"top"},
+		{"id":"dbf022e48b3d1199","fromNode":"d49c4cf18c91c03a","fromSide":"right","toNode":"7f28c887ccaf9aea","toSide":"left"},
+		{"id":"0dfa33cd4ef6610d","fromNode":"7f28c887ccaf9aea","fromSide":"bottom","toNode":"539f332451a612ad","toSide":"top"},
+		{"id":"89bf658c66d9b999","fromNode":"496def2443ff0db7","fromSide":"bottom","toNode":"e73a9c77c1965e91","toSide":"top"}
+	]
+}
