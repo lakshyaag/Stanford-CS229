@@ -1,4 +1,5 @@
 problem-sets-original/
+*__pycache__/
 .obsidian/*
 !.obsidian/app.json
 !.obsidian/appearance.json
